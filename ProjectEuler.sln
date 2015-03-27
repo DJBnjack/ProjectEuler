@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.22609.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectEuler", "ProjectEuler\ProjectEuler.vcxproj", "{A404D9BE-26A3-40C5-8D4A-D55E0189E75B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "002", "002\002.vcxproj", "{06381322-DA75-40E9-8ED3-54BAF3E32EC7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "001", "001\001.vcxproj", "{E3FD3B7C-6088-4F89-AD8D-E5AD0F3337A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A404D9BE-26A3-40C5-8D4A-D55E0189E75B}.Debug|x86.ActiveCfg = Debug|Win32
-		{A404D9BE-26A3-40C5-8D4A-D55E0189E75B}.Debug|x86.Build.0 = Debug|Win32
-		{A404D9BE-26A3-40C5-8D4A-D55E0189E75B}.Release|x86.ActiveCfg = Release|Win32
-		{A404D9BE-26A3-40C5-8D4A-D55E0189E75B}.Release|x86.Build.0 = Release|Win32
+		{06381322-DA75-40E9-8ED3-54BAF3E32EC7}.Debug|x86.ActiveCfg = Debug|Win32
+		{06381322-DA75-40E9-8ED3-54BAF3E32EC7}.Debug|x86.Build.0 = Debug|Win32
+		{06381322-DA75-40E9-8ED3-54BAF3E32EC7}.Release|x86.ActiveCfg = Release|Win32
+		{06381322-DA75-40E9-8ED3-54BAF3E32EC7}.Release|x86.Build.0 = Release|Win32
+		{E3FD3B7C-6088-4F89-AD8D-E5AD0F3337A1}.Debug|x86.ActiveCfg = Debug|Win32
+		{E3FD3B7C-6088-4F89-AD8D-E5AD0F3337A1}.Debug|x86.Build.0 = Debug|Win32
+		{E3FD3B7C-6088-4F89-AD8D-E5AD0F3337A1}.Release|x86.ActiveCfg = Release|Win32
+		{E3FD3B7C-6088-4F89-AD8D-E5AD0F3337A1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

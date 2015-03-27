@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{A404D9BE-26A3-40C5-8D4A-D55E0189E75B}</ProjectGuid>
+    <ProjectGuid>{E3FD3B7C-6088-4F89-AD8D-E5AD0F3337A1}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>ProjectEuler</RootNamespace>
+    <RootNamespace>My001</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
