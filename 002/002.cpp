@@ -6,15 +6,26 @@ using namespace std;
 
 int main()
 {
-	int sum = 0;
-	for (int i = 0; i < 1000; i++)
+	cout << "Euler Problem 002\n";
+
+	int fib[100000];
+	fib[0] = 1;
+	fib[1] = 2;
+	int currentFib = 1;
+	int fibsum = 2;
+	
+
+	while (fib[currentFib] < 4000000)
 	{
-		if ((i / 3) * 3 == i || (i / 5) * 5 == i)
+		currentFib++;
+		fib[currentFib] = fib[currentFib - 1] + fib[currentFib - 2];
+		if ((fib[currentFib] / 2) * 2 == fib[currentFib])
 		{
-			sum += i;
+			fibsum += fib[currentFib];
 		}
 	}
-	cout << "Sum2: " << sum << "\n";
+
+	cout << "Sum: " << fibsum << "\n";
 	cin.get();
 	return 0;
 }
